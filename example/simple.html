@@ -1,24 +1,3 @@
-# hlsProxy
-
-This is local nodejs caching media proxy.
-### Capability:
-* Buffer all media segments from playlist
-* Buffer and return m3u8 with delay to clients
-* Decrease wan network usage
-* Increase stability
-
-
-### Server installation
-* Clone repository
-* Modify list.json
-* Install modules `npm install`
-* Run application `node app.js`
-
-### Client usage
-* Use m3u8 link such as http://192.168.1.100:8080/RTD/anyname.m3u8 (change to your server ip and port)
-
-**Example from hls.js** `example/simple.html`
-```
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <!-- Or if you want a more recent canary version -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@canary"></script> -->
@@ -46,4 +25,3 @@ This is local nodejs caching media proxy.
     });
   }
 </script>
-```

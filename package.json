@@ -1,0 +1,10 @@
+{
+  "name": "hlsProxy",
+  "description": "",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "request": ">0.0.1"
+  },
+  "readme": ""
+}
