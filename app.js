@@ -14,6 +14,7 @@ delete list.config;
 var buffers={};
 var server=http.createServer(function (req, res) {
   res.setHeader('Access-Control-Allow-Origin','*');
+  //console.log(req.url);
   var buf;
   if (nameSpaceRe.test(req.url)){
     var params=nameSpaceRe.exec(req.url);
@@ -38,6 +39,7 @@ var server=http.createServer(function (req, res) {
   }
   if (nameSpaceRe.test(req.url)){
     req.fileKey=req.url.replace(nameSpaceRe,'');
+//    console.log('file req',listName,req.fileKey);
     buf.onFileReq(req,res);
   }
 });
