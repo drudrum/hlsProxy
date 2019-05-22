@@ -9,6 +9,20 @@
     "checkInterval":500,
     "cleanAfter":300000
   },
+  "RT":{
+    "playlist":"https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8?vsid=0",
+    "bufferTime":25000,
+    "checkInterval":500,
+    "cleanAfter":300000,
+    "lastFilesCnt":100
+  },
+  "EURONEWS":{
+    "playlist":"https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8?vsid=0",
+    "bufferTime":25000,
+    "checkInterval":500,
+    "cleanAfter":300000,
+    "lastFilesCnt":100
+  },
   "RBC":{
     "playlist":"http://e4.online.video.rbc.ru/online2/rbctv_576p/index.m3u8",
     "bufferTime":25000,
@@ -16,13 +30,13 @@
     "cleanAfter":300000
   },
   "R24":{
-    "playlist":"https://livehlsvgtrk.cdnvideo.ru/live/smil%3Ar24.smil/chunklist_b1200000.m3u8",
+    "playlist":"http://46.241.54.27:81/udp/239.54.5.12:1224",
     "bufferTime":15000,
     "checkInterval":1000,
     "cleanAfter":300000
   },
   "OTR":{
-    "playlist":"https://bl.webcaster.pro/media/playlist/free_0eb4024b8338ee4a335568708b366aad_hd/5_2972636396/480p/d5dcb25c6a941a84da3e92d511439ac5/1556301817.m3u8",
+    "playlist":"http://83.246.203.138:81/udp/239.54.5.146:1224",
     "bufferTime":15000,
     "checkInterval":1000,
     "cleanAfter":300000,
