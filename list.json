@@ -6,39 +6,39 @@
   "RTD":{
     "playlist":"https://rtmp.api.rt.com/hls/rtdru360.m3u8",
     "bufferTime":25000,
-    "checkInterval":500,
+    "checkInterval":2500,
     "cleanAfter":300000
   },
   "RT":{
     "playlist":"https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8?vsid=0",
     "bufferTime":25000,
-    "checkInterval":500,
+    "checkInterval":2500,
     "cleanAfter":300000,
     "lastFilesCnt":100
   },
   "EURONEWS":{
     "playlist":"https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8?vsid=0",
     "bufferTime":25000,
-    "checkInterval":500,
+    "checkInterval":2000,
     "cleanAfter":300000,
     "lastFilesCnt":100
   },
   "RBC":{
     "playlist":"http://e4.online.video.rbc.ru/online2/rbctv_576p/index.m3u8",
     "bufferTime":25000,
-    "checkInterval":1000,
+    "checkInterval":2000,
     "cleanAfter":300000
   },
   "R24":{
     "playlist":"http://gorod.tv/s/live/5/134.249.65.172/1/0.m3u8",
     "bufferTime":15000,
-    "checkInterval":1000,
+    "checkInterval":2000,
     "cleanAfter":300000
   },
   "OTR":{
     "playlist":"http://gorod.tv/s/live/24/134.249.65.172/0/0.m3u8",
     "bufferTime":15000,
-    "checkInterval":1000,
+    "checkInterval":2000,
     "cleanAfter":300000,
     "lastFilesCnt":100
   }
