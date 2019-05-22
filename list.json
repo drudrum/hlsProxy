@@ -14,14 +14,16 @@
     "bufferTime":25000,
     "checkInterval":2500,
     "cleanAfter":300000,
-    "lastFilesCnt":100
+    "lastFilesCnt":100,
+    "filterListRe":"RESOLUTION=1280x720"
   },
   "EURONEWS":{
     "playlist":"https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8?vsid=0",
     "bufferTime":25000,
     "checkInterval":2000,
     "cleanAfter":300000,
-    "lastFilesCnt":100
+    "lastFilesCnt":100,
+    "filterListRe":"RESOLUTION=1280x720"
   },
   "RBC":{
     "playlist":"http://e4.online.video.rbc.ru/online2/rbctv_576p/index.m3u8",
