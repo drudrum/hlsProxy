@@ -32,13 +32,13 @@
     "cleanAfter":300000
   },
   "R24":{
-    "playlist":"http://gorod.tv/s/live/5/134.249.65.172/1/0.m3u8",
+    "playlist":"http://gorod.tv/s/live/7/v94.142.140.147/1558667979/1558668243.m3u8",
     "bufferTime":15000,
     "checkInterval":2000,
     "cleanAfter":300000
   },
   "OTR":{
-    "playlist":"http://gorod.tv/s/live/24/134.249.65.172/0/0.m3u8",
+    "playlist":"http://gorod.tv/s/live/9/178.72.65.174/1558667979/0.m3u8",
     "bufferTime":15000,
     "checkInterval":2000,
     "cleanAfter":300000,
