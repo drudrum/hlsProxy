@@ -10,12 +10,11 @@
     "cleanAfter":300000
   },
   "RT":{
-    "playlist":"https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8?vsid=0",
+    "playlist":"http://rt-news.secure.footprint.net/1103-inadv-qidx-1k_v5.m3u8",
     "bufferTime":25000,
     "checkInterval":2500,
     "cleanAfter":300000,
-    "lastFilesCnt":100,
-    "filterListRe":"RESOLUTION=1280x720"
+    "lastFilesCnt":80
   },
   "EURONEWS":{
     "playlist":"https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8?vsid=0",
@@ -39,6 +38,13 @@
   },
   "OTR":{
     "playlist":"http://gorod.tv/s/live/9/178.72.65.174/1558667979/0.m3u8",
+    "bufferTime":15000,
+    "checkInterval":2000,
+    "cleanAfter":300000,
+    "lastFilesCnt":100
+  },
+  "TVC":{
+    "playlist":"http://gorod.tv/s/live/10/178.72.65.174/1558686474/0.m3u8",
     "bufferTime":15000,
     "checkInterval":2000,
     "cleanAfter":300000,
