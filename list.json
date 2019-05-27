@@ -7,6 +7,7 @@
     "playlist":"https://rtmp.api.rt.com/hls/rtdru360.m3u8",
     "bufferTime":25000,
     "checkInterval":2500,
+    "lastFilesCnt":25,
     "cleanAfter":300000
   },
   "RT":{
@@ -14,26 +15,27 @@
     "bufferTime":25000,
     "checkInterval":2500,
     "cleanAfter":300000,
-    "lastFilesCnt":80
+    "lastFilesCnt":50
   },
-  "EURONEWS":{
-    "playlist":"https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8?vsid=0",
-    "bufferTime":25000,
-    "checkInterval":2000,
+  "IZ":{
+    "playlist":"https://hls-igi.cdnvideo.ru/igi/igi1_lq/playlist.m3u8",
+    "bufferTime":15000,
+    "checkInterval":3000,
     "cleanAfter":300000,
-    "lastFilesCnt":100,
-    "filterListRe":"RESOLUTION=1280x720"
+    "lastFilesCnt":30    
   },
   "RBC":{
     "playlist":"http://e4.online.video.rbc.ru/online2/rbctv_576p/index.m3u8",
     "bufferTime":25000,
     "checkInterval":2000,
-    "cleanAfter":300000
+    "cleanAfter":300000,
+    "lastFilesCnt":50
   },
   "R24":{
     "playlist":"http://gorod.tv/s/live/7/v94.142.140.147/1558667979/1558668243.m3u8",
     "bufferTime":15000,
     "checkInterval":2000,
+    "lastFilesCnt":50,
     "cleanAfter":300000
   },
   "OTR":{
@@ -41,13 +43,13 @@
     "bufferTime":15000,
     "checkInterval":2000,
     "cleanAfter":300000,
-    "lastFilesCnt":100
+    "lastFilesCnt":50
   },
   "TVC":{
     "playlist":"http://gorod.tv/s/live/10/178.72.65.174/1558686474/0.m3u8",
     "bufferTime":15000,
     "checkInterval":2000,
     "cleanAfter":300000,
-    "lastFilesCnt":100
+    "lastFilesCnt":50
   }
 }

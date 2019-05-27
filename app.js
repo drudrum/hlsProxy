@@ -25,7 +25,7 @@ var server=http.createServer(function (req, res) {
       res.end('list.json does not contain config for '+listName);
       return;
     }
-    buf=buffers[listName]=buffers[listName]||new hlsBuffer(opts,listName);
+    buf=buffers[listName]||new hlsBuffer(opts,buffers,listName);
   }
   if (!buf){
     console.log("Client req unknown url %s",req.url);
